@@ -22,6 +22,6 @@ eval "$(fzf --zsh)"
 
 alias vim="nvim"
 alias cd="z"
-alias ls="eza --color=always --icons=always"
+alias ls="eza -a --color=always --icons=always"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
