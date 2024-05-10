@@ -1,6 +1,9 @@
 return {
   {
     "nvim-treesitter/nvim-treesitter",
+    dependencies = {
+      { "windwp/nvim-ts-autotag" },
+    },
     opts = {
       ensure_installed = {
         "javascript",
@@ -17,6 +20,29 @@ return {
         "rust",
         "cpp",
         "vue",
+      },
+      autotag = {
+        enable = true,
+        enable_rename = true,
+        enable_close = true,
+        enable_close_on_slash = true,
+        filetypes = {
+          "html",
+          "javascript",
+          "typescript",
+          "javascriptreact",
+          "typescriptreact",
+          "svelte",
+          "vue",
+          "tsx",
+          "jsx",
+          "rescript",
+          "css",
+          "lua",
+          "xml",
+          "php",
+          "markdown",
+        },
       },
       query_linter = {
         enable = true,
