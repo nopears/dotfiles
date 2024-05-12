@@ -32,3 +32,4 @@ yabai -m rule --add app="^AppCleaner$" manage=off
 yabai -m rule --add app="^ImageOptim$" manage=off
 yabai -m rule --add app="^Vogue Runway$" manage=off
 yabai -m rule --add app="^Psiphon$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
