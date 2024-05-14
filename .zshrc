@@ -14,7 +14,10 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     git
+    tmux
 )
+
+ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
