@@ -14,6 +14,7 @@ opacity = 0.8
 blur = true
 startup_mode = "Maximized"
 option_as_alt = "Both"
+decorations = "None"
 
 [env]
 TERM = "xterm-256color"
