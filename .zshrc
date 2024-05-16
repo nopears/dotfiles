@@ -23,6 +23,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 eval "$(pyenv init --path)"
+eval "$(atuin init zsh)"
 
 alias vim="nvim"
 alias cd="z"
