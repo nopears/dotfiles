@@ -22,6 +22,7 @@ ZSH_TMUX_AUTOSTART=true
 source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
+eval "$(pyenv init --path)"
 
 alias vim="nvim"
 alias cd="z"
