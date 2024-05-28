@@ -28,5 +28,7 @@ eval "$(atuin init zsh)"
 alias vim="nvim"
 alias cd="z"
 alias ls="eza -a --color=always --icons=always"
+alias lzg="lazygit"
+alias lzd="lazydocker"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
