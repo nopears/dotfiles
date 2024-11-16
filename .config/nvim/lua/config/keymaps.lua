@@ -1,15 +1,9 @@
--- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
--- Add any additional keymaps here
-local keymap = vim.keymap
-local opts = { noremap = true, silent = true }
+local keymap = vim.keymap.set
 
-keymap.set("n", "<leader>e", ":Neotree float focus<CR>")
-keymap.set("n", "dw", "vb_d")
-keymap.set("n", "<C-a>", "gg<S-v>G")
-keymap.set("n", "te", "tabedit", opts)
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
-keymap.set("x", "<leader>cS", ":CodeSnapSave<Return>", opts)
-keymap.set("x", "<leader>cs", ":CodeSnap<Return>", opts)
-keymap.set("n", "<leader>h", ":Huez<CR>", {})
+keymap("n", "<leader>e", ":Neotree float focus<CR>")
+keymap("n", "dw", "vb_d")
+keymap("n", "<C-a>", "gg<S-v>G")
+keymap("n", "<tab>", ":bnext<Return>", { noremap = true, silent = true })
+keymap("n", "<s-tab>", ":bprevious<Return>", { noremap = true, silent = true })
+keymap("x", "<leader>cP", ":CodeSnapSave<Return>", { desc = "Snap and save code", noremap = true, silent = true })
+keymap("x", "<leader>cp", ":CodeSnap<Return>", { desc = "Snap code", noremap = true, silent = true })

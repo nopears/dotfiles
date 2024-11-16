@@ -1,15 +1,10 @@
 return {
-  -- { "xero/miasma.nvim" },
-  -- "craftzdog/solarized-osaka.nvim",
-  -- "folke/tokyonight.nvim",
-  -- "marko-cerovac/material.nvim",
-  "ellisonleao/gruvbox.nvim",
-  lazy = true,
-  priority = 1000,
-  opts = function()
-    return {
-      terminal_colors = true,
-      transparent_mode = true,
-    }
-  end,
+  { "ellisonleao/gruvbox.nvim", config = true, opts = { transparent_mode = true, terminal_colors = true } },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  },
 }

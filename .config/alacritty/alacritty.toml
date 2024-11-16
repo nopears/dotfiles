@@ -1,5 +1,20 @@
 import = ["~/.config/alacritty/themes/gruvbox-dark.toml"]
 
+[[keyboard.bindings]]
+chars = "\u001B[27;5;105~"
+key = "I"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;5;9~"
+key = "Tab"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u001B[27;6;9~"
+key = "Tab"
+mods = "Control|Shift"
+
 [font]
 normal = { family = "Liga SFMono Nerd Font", style = "Regular" }
 bold = { family = "Liga SFMono Nerd Font", style = "SemiBold" }

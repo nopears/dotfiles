@@ -32,3 +32,6 @@ alias lzg="lazygit"
 alias lzd="lazydocker"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PNPM_HOME="/Users/valdemar/.nvm/versions/node/v22.1.0/bin/pnpm"
+export PATH="$PNPM_HOME:$PATH"
