@@ -2,6 +2,7 @@ return {
   {
     "mistricky/codesnap.nvim",
     build = "make",
+    lazy = true,
     opts = function()
       return {
         save_path = "~/Desktop",

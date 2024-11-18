@@ -1,0 +1,21 @@
+font-family = Liga SFMono Nerd Font
+font-size = 13
+font-feature = -calt 
+font-feature = -liga 
+font-feature = -dlig
+
+macos-option-as-alt = true
+mouse-hide-while-typing = true
+
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = clipboard
+
+theme = GruvboxDark
+window-save-state = always
+window-decoration = false
+macos-non-native-fullscreen = true
+window-width = 152
+window-height = 75
+
+shell-integration = zsh
