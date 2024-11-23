@@ -1,6 +1,3 @@
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
 export ZSH="$HOME/.oh-my-zsh"
 
 export NVM_DIR="$HOME/.nvm"
@@ -15,23 +12,30 @@ plugins=(
     zsh-syntax-highlighting
     git
     tmux
+		zsh-vi-mode
 )
 
 ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
+eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 eval "$(pyenv init --path)"
 eval "$(atuin init zsh)"
 
+alias v="nvim"
 alias vim="nvim"
 alias cd="z"
 alias ls="eza -a --color=always --icons=always"
 alias lzg="lazygit"
 alias lzd="lazydocker"
 
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 export PNPM_HOME="/Users/valdemar/.nvm/versions/node/v22.1.0/bin/pnpm"
 export PATH="$PNPM_HOME:$PATH"
+
+export GHOSTTY_BIN_DIR="/Applications/Ghostty.app/Contents/MacOS/"
+export GHOSTTY_RESOURCES_DIR="/Applications/Ghostty.app/Contents/Resources/ghostty/"
+export GHOSTTY_SHELL_INTEGRATION_NO_SUDO=1
+
+export EDITOR="nvim"

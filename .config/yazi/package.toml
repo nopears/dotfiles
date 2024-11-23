@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "GrzegorzKozub/mdcat", rev = "1706af4" }]
+
+[flavor]
+deps = []

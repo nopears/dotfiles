@@ -17,5 +17,6 @@ window-decoration = false
 macos-non-native-fullscreen = true
 window-width = 152
 window-height = 75
+background-opacity = 0.98
 
 shell-integration = zsh
