@@ -1,8 +1,5 @@
 font-family = Liga SFMono Nerd Font
 font-size = 13
-font-feature = -calt 
-font-feature = -liga 
-font-feature = -dlig
 
 macos-option-as-alt = true
 mouse-hide-while-typing = true
@@ -20,3 +17,4 @@ window-height = 75
 background-opacity = 0.98
 
 shell-integration = zsh
+
