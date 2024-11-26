@@ -11,6 +11,7 @@ copy-on-select = clipboard
 theme = GruvboxDark
 window-save-state = always
 window-decoration = false
+window-padding-balance = true
 macos-non-native-fullscreen = true
 window-width = 152
 window-height = 75
