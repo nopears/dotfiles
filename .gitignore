@@ -6,3 +6,5 @@
 .config/jgit
 .config/raycast
 .config/atuin
+
+.config/nvim/lazy-lock.json
