@@ -12,6 +12,7 @@
   "crates.nvim": { "branch": "main", "commit": "8bf8358ee326d5d8c11dcd7ac0bcc9ff97dbc785" },
   "dial.nvim": { "branch": "master", "commit": "46b4375e84e8eb771129bff6b2b1e47746601ef9" },
   "dooing": { "branch": "main", "commit": "4ed6c8ace645ef6780c1f7e66009386573a8f81b" },
+  "faster.nvim": { "branch": "main", "commit": "ee58dbb46e5d16b72cdfd0cd246a3b1a33ec2487" },
   "flash.nvim": { "branch": "main", "commit": "34c7be146a91fec3555c33fe89c7d643f6ef5cf1" },
   "flit.nvim": { "branch": "main", "commit": "1ef72de6a02458d31b10039372c8a15ab8989e0d" },
   "friendly-snippets": { "branch": "main", "commit": "de8fce94985873666bd9712ea3e49ee17aadb1ed" },
