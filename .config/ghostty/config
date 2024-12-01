@@ -15,7 +15,7 @@ window-padding-balance = true
 macos-non-native-fullscreen = true
 window-width = 152
 window-height = 75
-background-opacity = 0.98
+background-opacity = 0.99
 
 shell-integration = zsh
 
