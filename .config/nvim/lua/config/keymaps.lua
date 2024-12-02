@@ -39,3 +39,7 @@ keymap(
   "<cmd>lua require('package-info').change_version()<cr>",
   { silent = true, noremap = true, desc = "Change package version" }
 )
+keymap("n", "m", "d", { noremap = true })
+keymap("v", "m", "d", { noremap = true })
+keymap("n", "mm", "dd", { noremap = true })
+keymap("n", "mm", "dd", { noremap = true })
